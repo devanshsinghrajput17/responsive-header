@@ -1,0 +1,75 @@
+.header {
+    width: 95%;
+    margin: auto;
+
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header .content {
+    width: 500px;
+    display: flex;
+    justify-content: space-between
+}
+
+.header .content a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.header .option {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .option .image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .header .content {
+        display: none;
+    }
+
+    .dsr {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+
+
+    .hamburger {
+        display: block;
+    }
+
+}
+
+
+
